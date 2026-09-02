@@ -2,16 +2,17 @@
 {
     public string Nom { get; set; }
     public int Age { get; set; }
-    public float Capital; 
-    public humain(string nom, int age, float capital)
+    public float Salaire; 
+    public humain(string Nom, int Age, float Salaire)
     {
-        Nom = nom;
-        Age = age;
-        Capital = capital;
+        Nom = Nom;
+        Age = Age;
+        Salaire = Salaire;
     }
-    public void SePresenter()
+    public void Travailler(int NbHeure)
     {
-        Console.WriteLine($"Bonjour, je m'appelle {Nom} et j'ai {Age} ans. J'ai {Capital} dollars.");
+        
     }
+    
 
 }
